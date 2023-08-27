@@ -1,0 +1,23 @@
+/* inside style.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+    background-color: yellow;
+  }
+  
+  .error {
+    background-color: lightcoral;
+    border: red;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+  }
