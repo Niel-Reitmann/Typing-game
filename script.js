@@ -1,5 +1,4 @@
-// inside script.js
-// all of our quotes
+// quotes
 const quotes = [
   "When you have eliminated the impossible, whatever remains, however improbable, must be the truth.",
   "There is nothing more deceptive than an obvious fact.",
@@ -19,7 +18,6 @@ const quoteElement = document.getElementById("quote");
 const messageElement = document.getElementById("message");
 const typedValueElement = document.getElementById("typed-value");
 
-// at the end of script.js
 document.getElementById("start").addEventListener("click", () => {
   // get a quote
   const quoteIndex = Math.floor(Math.random() * quotes.length);
@@ -52,7 +50,6 @@ document.getElementById("start").addEventListener("click", () => {
   startTime = new Date().getTime();
 });
 
-// at the end of script.js
 typedValueElement.addEventListener("input", () => {
   // Get the current word
   const currentWord = words[wordIndex];
